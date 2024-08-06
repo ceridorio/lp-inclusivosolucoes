@@ -10,7 +10,7 @@ export default function Mobile() {
             <p className="poppins text-3xl font-semibold ">
               Desenvolvimento de apps
             </p>
-            <p className="text-lg font-light">
+            <p className="text-lg">
               Transformaremos suas ideias em aplicativos práticos <br /> para
               impulsionar seu negócio.
             </p>
