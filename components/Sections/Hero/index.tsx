@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="flex items-center justify-between h-screen">
+    <div className="flex items-center justify-between h-dvh">
       <div className="gap-4 flex flex-col">
         <p className="text-7xl poppins uppercase font-semibold text-darkGray">
           inclusivo
@@ -20,6 +20,7 @@ export default function Hero() {
         width={600}
         height={600}
         priority
+        className="drop-shadow-md"
       />
     </div>
   );

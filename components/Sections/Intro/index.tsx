@@ -2,13 +2,14 @@ import Image from "next/image";
 
 export default function Intro() {
   return (
-    <div className="flex items-center justify-between h-screen">
+    <div className="flex items-center justify-between h-dvh">
       <Image
         src={"./doubts.svg"}
         alt="imagem"
         width={500}
         height={500}
         priority
+        className="drop-shadow-md"
       />
       <div className="flex flex-col gap-5 mr-5">
         <p className="font-semibold text-darkGray text-4xl poppins">
