@@ -6,6 +6,7 @@ export default function Home() {
       <Section.Hero />
       <Section.Intro />
       <Section.Mobile />
+      <Section.Finance />
     </div>
   );
 }
