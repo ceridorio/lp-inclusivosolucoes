@@ -7,6 +7,7 @@ export default function Home() {
       <Section.Intro />
       <Section.Mobile />
       <Section.Finance />
+      <Section.Social />
     </div>
   );
 }
