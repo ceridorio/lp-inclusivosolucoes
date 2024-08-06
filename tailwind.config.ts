@@ -20,7 +20,11 @@ const config: Config = {
       padding: "2rem",
       center: true,
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        bottom: "0 4px 6px rgba(0, 0, 0, 0.1)",
+      },
+    },
     colors: {
       white: "#FFFFFF",
       black: "#000000",

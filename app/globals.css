@@ -4,7 +4,8 @@
 
 body {
   color: #000;
-  background: #fff;
+  background: #ededed;
+  font-family: var(--font-inter);
 }
 
 .poppins {
