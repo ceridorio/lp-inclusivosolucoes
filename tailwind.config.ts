@@ -24,6 +24,10 @@ const config: Config = {
       boxShadow: {
         bottom: "0 4px 6px rgba(0, 0, 0, 0.1)",
       },
+      backgroundImage: {
+        "hero-bg":
+          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/hero-bg.png')",
+      },
     },
     colors: {
       white: "#FFFFFF",
