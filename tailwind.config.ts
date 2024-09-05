@@ -27,6 +27,8 @@ const config: Config = {
       backgroundImage: {
         "hero-bg":
           "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/hero-bg.png')",
+        "contact-bg":
+          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/idea.jpg')",
       },
     },
     colors: {
