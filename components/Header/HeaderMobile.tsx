@@ -3,9 +3,12 @@
 import { Facebook, Instagram, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { twMerge } from "tailwind-merge";
 
 export function HeaderMobile() {
+  const pathname = usePathname();
   const [nav, setNav] = useState(false);
 
   function handleCloseMobileMenu() {
@@ -38,16 +41,48 @@ export function HeaderMobile() {
           } flex flex-col justify-center items-center`}
         >
           <li>
-            <Link href="#">Início</Link>
+            <Link
+              href="/"
+              className={twMerge(
+                pathname === "/" ? "text-blue500" : "",
+                "hover:text-blue500"
+              )}
+            >
+              Início
+            </Link>
           </li>
           <li>
-            <Link href="#">Gestão de mídias sociais</Link>
+            <Link
+              href="/social-media"
+              className={twMerge(
+                pathname === "/social-media" ? "text-blue500" : "",
+                "hover:text-blue500"
+              )}
+            >
+              Gestão de mídias sociais
+            </Link>
           </li>
           <li>
-            <Link href="#">Consultorias comerciais</Link>
+            <Link
+              href="/consulting"
+              className={twMerge(
+                pathname === "/consulting" ? "text-blue500" : "",
+                "hover:text-blue500"
+              )}
+            >
+              Consultorias comerciais
+            </Link>
           </li>
           <li>
-            <Link href="#">Desenvolvimento de apps</Link>
+            <Link
+              href="/development"
+              className={twMerge(
+                pathname === "/development" ? "text-blue500" : "",
+                "hover:text-blue500"
+              )}
+            >
+              Desenvolvimento de apps
+            </Link>
           </li>
           <li className="flex gap-4 mt-6">
             <Link

@@ -2,6 +2,7 @@
 
 import { Rocket } from "lucide-react";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
 import { HeaderMobile } from "./HeaderMobile";
 
@@ -20,6 +21,8 @@ export function Header({
   hasButtons = false,
   hasToggle = false,
 }: Props) {
+  const pathname = usePathname();
+
   return (
     <div
       className={twMerge([
@@ -27,18 +30,50 @@ export function Header({
         className,
       ])}
     >
-      <div className="px-3 md:px-10 flex gap-x-24 self-start">
+      <div className="px-3 lg:px-10 flex gap-x-24 self-start w-full justify-between lg:justify-normal">
         <div className="flex items-center gap-x-4">
           <h1 className="text-2xl poppins cursor-default">
             INCLUSIVO <span className="italic text-blue500">SOLUÇÕES</span>
           </h1>
         </div>
 
-        <div className="hidden items-center gap-16 md:flex">
-          <Link href="#">Início</Link>
-          <Link href="/social-media">Gestão de mídias sociais</Link>
-          <Link href="#">Consultorias comerciais</Link>
-          <Link href="#">Desenvolvimento de apps</Link>
+        <div className="hidden items-center gap-16 lg:flex">
+          <Link
+            href="/"
+            className={twMerge(
+              pathname === "/" ? "border-b-2 border-b-blue500" : "",
+              "hover:text-blue500"
+            )}
+          >
+            Início
+          </Link>
+          <Link
+            href="/social-media"
+            className={twMerge(
+              pathname === "/social-media" ? "border-b-2 border-b-blue500" : "",
+              "hover:text-blue500"
+            )}
+          >
+            Gestão de mídias sociais
+          </Link>
+          <Link
+            href="/consulting"
+            className={twMerge(
+              pathname === "/consulting" ? "border-b-2 border-b-blue500" : "",
+              "hover:text-blue500"
+            )}
+          >
+            Consultorias comerciais
+          </Link>
+          <Link
+            href="/development"
+            className={twMerge(
+              pathname === "/development" ? "border-b-2 border-b-blue500" : "",
+              "hover:text-blue500"
+            )}
+          >
+            Desenvolvimento de apps
+          </Link>
         </div>
 
         <HeaderMobile />

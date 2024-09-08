@@ -1,4 +1,9 @@
-import { BadgeCheck, ChevronRight } from "lucide-react";
+import {
+  BadgeCheck,
+  ChevronRight,
+  Lightbulb,
+  MonitorSmartphone,
+} from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,14 +21,14 @@ export default function Hero() {
               Estrategias poderosas para tornar sua presença online uma força no
               mercado.
             </span>
-            <Link href="#" className="flex text-xs items-center">
+            <Link href="/social-media" className="flex text-xs items-center">
               Saiba mais <ChevronRight size={14} />{" "}
             </Link>
           </div>
 
           <div className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
             <div className="flex items-center justify-center bg-[#f1f5ff] rounded-full size-12 text-blue500">
-              <BadgeCheck />
+              <Lightbulb />
             </div>
             <p className="font-semibold text-xl">Consultorias Comerciais</p>
             <span className="text-[#696969]">
@@ -37,7 +42,7 @@ export default function Hero() {
 
           <div className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
             <div className="flex items-center justify-center bg-[#f1f5ff] rounded-full size-12 text-blue500">
-              <BadgeCheck />
+              <MonitorSmartphone />
             </div>
             <p className="font-semibold text-xl">Desenvolvimento de Apps</p>
             <span className="text-[#696969]">
