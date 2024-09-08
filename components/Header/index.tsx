@@ -36,7 +36,7 @@ export function Header({
 
         <div className="hidden items-center gap-16 md:flex">
           <Link href="#">Início</Link>
-          <Link href="#">Gestão de mídias sociais</Link>
+          <Link href="/social-media">Gestão de mídias sociais</Link>
           <Link href="#">Consultorias comerciais</Link>
           <Link href="#">Desenvolvimento de apps</Link>
         </div>
@@ -63,13 +63,13 @@ export function Header({
           <div className="flex items-center gap-4">
             <Link
               href="#"
-              className="bg-blue500 rounded-full w-36 h-12 items-center justify-center flex text-sm"
+              className="bg-blue500 rounded-full w-36 h-12 items-center justify-center flex text-sm hover:scale-105 transition-all ease-in"
             >
               Saiba mais
             </Link>
             <Link
               href="#"
-              className="bg-[#001727] rounded-full h-12 w-36 items-center justify-center flex text-sm"
+              className="bg-[#001727] rounded-full h-12 w-36 items-center justify-center flex text-sm hover:scale-105 transition-all ease-in"
             >
               Nossos serviços
             </Link>

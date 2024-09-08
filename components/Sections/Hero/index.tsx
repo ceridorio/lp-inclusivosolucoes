@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="flex items-center justify-between bg-[#01194c] py-5">
+    <div className="flex items-center justify-between bg-[#01194c] py-8">
       <div className="gap-4 flex flex-col px-3 md:px-0 md:container p-8">
         <div className="flex flex-col md:flex-row w-full gap-6 items-center md:justify-center">
           <div className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">

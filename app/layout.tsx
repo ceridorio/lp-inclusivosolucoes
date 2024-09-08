@@ -1,4 +1,5 @@
 import { Footer } from "@/components/Footer";
+import { NewsLetter } from "@/components/newsletter";
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
@@ -31,6 +32,7 @@ export default function RootLayout({
     <html lang="pt-BR" className="scroll-smooth">
       <body className={`${inter.variable} ${poppins.variable}`}>
         {children}
+        <NewsLetter />
         <Footer />
       </body>
     </html>
