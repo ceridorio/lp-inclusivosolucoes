@@ -38,12 +38,7 @@ export default function Hero() {
               Expertise para impulsionar vendas e levar seu negocio a novos
               patamares.
             </span>
-            <Link
-              href="https://api.whatsapp.com/send/?phone=5511981046535&text&type=phone_number&app_absent=0"
-              target="_blank"
-              aria-label="whatsapp"
-              className="flex text-xs items-center"
-            >
+            <Link href="/consulting" className="flex text-xs items-center">
               Saiba mais <ChevronRight size={14} />
             </Link>
           </div>
@@ -57,7 +52,7 @@ export default function Hero() {
               Transformaremos suas ideias em aplicativos práticos para
               impulsionar seu negócio.
             </span>
-            <Link href="#" className="flex text-xs items-center">
+            <Link href="/development" className="flex text-xs items-center">
               Saiba mais <ChevronRight size={14} />{" "}
             </Link>
           </div>

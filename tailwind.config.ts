@@ -34,6 +34,8 @@ const config: Config = {
           "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/banner-02.webp')",
         "consulting-bg":
           "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/banner-03.webp')",
+        "develop-bg":
+          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/banner-04.webp')",
       },
       borderRadius: {
         lg: "var(--radius)",
