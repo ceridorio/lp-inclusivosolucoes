@@ -9,7 +9,10 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="flex items-center justify-between bg-[#01194c] py-8">
+    <div
+      className="flex items-center justify-between bg-[#01194c] py-8"
+      id="services"
+    >
       <div className="gap-4 flex flex-col px-3 md:px-0 md:container p-8">
         <div className="flex flex-col md:flex-row w-full gap-6 items-center md:justify-center">
           <div className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
@@ -35,8 +38,13 @@ export default function Hero() {
               Expertise para impulsionar vendas e levar seu negocio a novos
               patamares.
             </span>
-            <Link href="#" className="flex text-xs items-center">
-              Saiba mais <ChevronRight size={14} />{" "}
+            <Link
+              href="https://api.whatsapp.com/send/?phone=5511981046535&text&type=phone_number&app_absent=0"
+              target="_blank"
+              aria-label="whatsapp"
+              className="flex text-xs items-center"
+            >
+              Saiba mais <ChevronRight size={14} />
             </Link>
           </div>
 

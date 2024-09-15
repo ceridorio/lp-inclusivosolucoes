@@ -31,7 +31,9 @@ const config: Config = {
         "contact-bg":
           "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/idea.jpg')",
         "media-bg":
-          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/banner-02.jpg')",
+          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/banner-02.webp')",
+        "consulting-bg":
+          "linear-gradient(to right, rgba(4,4,4, 0.7), rgba(4,4,4, 0.7)), url('../public/banner-03.webp')",
       },
       borderRadius: {
         lg: "var(--radius)",

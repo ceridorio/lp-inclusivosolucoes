@@ -13,7 +13,8 @@ export function NewsLetter() {
         </p>
 
         <Link
-          href="#"
+          href="https://api.whatsapp.com/send/?phone=5511981046535&text&type=phone_number&app_absent=0"
+          target="_blank"
           className="bg-blue500 rounded-full w-36 items-center justify-center flex p-3 mt-24"
         >
           Contate-nos

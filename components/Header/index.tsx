@@ -87,7 +87,7 @@ export function Header({
           </div>
         )}
 
-        <h2 className="text-4xl md:text-7xl text-center font-semibold max-w-[55rem]">
+        <h2 className="text-4xl md:text-5xl text-center font-semibold max-w-[55rem]">
           {title}
         </h2>
         <p className="text-center px-4 md:px-20 md:text-lg font-semibold">
@@ -103,7 +103,7 @@ export function Header({
               Saiba mais
             </Link>
             <Link
-              href="#"
+              href="#services"
               className="bg-[#001727] rounded-full h-12 w-36 items-center justify-center flex text-sm hover:scale-105 transition-all ease-in"
             >
               Nossos serviços

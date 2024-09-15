@@ -1,4 +1,4 @@
-import { Facebook, Instagram, MapPin } from "lucide-react";
+import { Instagram, MapPin } from "lucide-react";
 import Link from "next/link";
 
 export function Footer() {
@@ -10,13 +10,8 @@ export function Footer() {
             <h3 className="font-semibold text-xl">Sobre nós</h3>
             <div className="flex items-center gap-2">
               <Link
-                href="#"
-                className="rounded-full flex items-center justify-center size-12 bg-white text-blue500"
-              >
-                <Facebook />
-              </Link>
-              <Link
-                href="#"
+                href="https://www.instagram.com/leonardojardim.closer"
+                target="_blank"
                 className="rounded-full flex items-center justify-center size-12 bg-white text-blue500"
               >
                 <Instagram />
@@ -27,9 +22,9 @@ export function Footer() {
           <div className="gap-4 flex flex-col text-sm">
             <h3 className="font-semibold text-xl">Links</h3>
 
-            <Link href="#">Gestão de mídias sociais</Link>
-            <Link href="#">Consultorias Comerciais</Link>
-            <Link href="#">Desenvolvimento de Apps</Link>
+            <Link href="/social-media">Gestão de mídias sociais</Link>
+            <Link href="/consulting">Consultorias Comerciais</Link>
+            <Link href="/development">Desenvolvimento de Apps</Link>
           </div>
 
           <div className="gap-4 flex flex-col text-sm">

@@ -1,6 +1,6 @@
 "use client";
 
-import { Facebook, Instagram, Menu, X } from "lucide-react";
+import { Instagram, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -44,7 +44,7 @@ export function HeaderMobile() {
             <Link
               href="/"
               className={twMerge(
-                pathname === "/" ? "text-blue500" : "",
+                pathname === "/" ? "border-b-blue500" : "",
                 "hover:text-blue500"
               )}
             >
@@ -55,7 +55,7 @@ export function HeaderMobile() {
             <Link
               href="/social-media"
               className={twMerge(
-                pathname === "/social-media" ? "text-blue500" : "",
+                pathname === "/social-media" ? "border-b-blue500" : "",
                 "hover:text-blue500"
               )}
             >
@@ -66,7 +66,7 @@ export function HeaderMobile() {
             <Link
               href="/consulting"
               className={twMerge(
-                pathname === "/consulting" ? "text-blue500" : "",
+                pathname === "/consulting" ? "border-b-blue500" : "",
                 "hover:text-blue500"
               )}
             >
@@ -77,7 +77,7 @@ export function HeaderMobile() {
             <Link
               href="/development"
               className={twMerge(
-                pathname === "/development" ? "text-blue500" : "",
+                pathname === "/development" ? "border-b-blue500" : "",
                 "hover:text-blue500"
               )}
             >
@@ -86,7 +86,7 @@ export function HeaderMobile() {
           </li>
           <li className="flex gap-4 mt-6">
             <Link
-              href="https://api.whatsapp.com/send/?phone=5513996555013&text&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5511981046535&text&type=phone_number&app_absent=0"
               target="_blank"
               aria-label="whatsapp"
               className="gap-3 mr-2 hover:opacity-80 bg-white rounded-full size-9 items-center justify-center flex"
@@ -99,15 +99,7 @@ export function HeaderMobile() {
               />
             </Link>
             <Link
-              href="https://m.facebook.com/eaejuniorandrade/"
-              target="_blank"
-              aria-label="facebook"
-              className="gap-3 mr-2 hover:opacity-80 bg-white rounded-full size-9 items-center justify-center flex text-blue500"
-            >
-              <Facebook size={22} />
-            </Link>
-            <Link
-              href="https://www.instagram.com/engjrandrade?igsh=MXFrcWl1NnBzbWE5cg%3D%3D"
+              href="https://www.instagram.com/leonardojardim.closer"
               target="_blank"
               aria-label="instagram"
               className="gap-3 hover:opacity-80 bg-white rounded-full size-9 items-center justify-center flex text-blue500"
