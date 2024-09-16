@@ -97,7 +97,9 @@ export function Header({
         {hasButtons && (
           <div className="flex items-center gap-4">
             <Link
-              href="#"
+              href="https://api.whatsapp.com/send/?phone=5511981046535&text&type=phone_number&app_absent=0"
+              target="_blank"
+              aria-label="whatsapp"
               className="bg-blue500 rounded-full w-36 h-12 items-center justify-center flex text-sm hover:scale-105 transition-all ease-in"
             >
               Saiba mais
