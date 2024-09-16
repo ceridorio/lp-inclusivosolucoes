@@ -15,7 +15,7 @@ export default function Hero() {
     >
       <div className="gap-4 flex flex-col px-3 md:px-0 md:container p-8">
         <div className="flex flex-col md:flex-row w-full gap-6 items-center md:justify-center">
-          <div className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
+          <Link href="/social-media" className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
             <div className="flex items-center justify-center bg-[#f1f5ff] rounded-full size-12 text-blue500">
               <BadgeCheck />
             </div>
@@ -24,12 +24,12 @@ export default function Hero() {
               Estrategias poderosas para tornar sua presença online uma força no
               mercado.
             </span>
-            <Link href="/social-media" className="flex text-xs items-center">
+            <div className="flex text-xs items-center">
               Saiba mais <ChevronRight size={14} />{" "}
-            </Link>
-          </div>
+            </div>
+          </Link>
 
-          <div className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
+          <Link href="/consulting" className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
             <div className="flex items-center justify-center bg-[#f1f5ff] rounded-full size-12 text-blue500">
               <Lightbulb />
             </div>
@@ -38,12 +38,12 @@ export default function Hero() {
               Expertise para impulsionar vendas e levar seu negocio a novos
               patamares.
             </span>
-            <Link href="/consulting" className="flex text-xs items-center">
+            <div className="flex text-xs items-center">
               Saiba mais <ChevronRight size={14} />
-            </Link>
-          </div>
+            </div>
+          </Link>
 
-          <div className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
+          <Link href="/development" className="flex flex-col bg-white p-5 rounded-md gap-4 max-w-[376px] max-h-[360px] w-full h-full">
             <div className="flex items-center justify-center bg-[#f1f5ff] rounded-full size-12 text-blue500">
               <MonitorSmartphone />
             </div>
@@ -52,10 +52,10 @@ export default function Hero() {
               Transformaremos suas ideias em aplicativos práticos para
               impulsionar seu negócio.
             </span>
-            <Link href="/development" className="flex text-xs items-center">
+            <div className="flex text-xs items-center">
               Saiba mais <ChevronRight size={14} />{" "}
-            </Link>
-          </div>
+            </div>
+          </Link>
         </div>
         <div className="flex flex-col text-white gap-4 mt-8 items-center">
           <h2 className="text-left text-sm md:text-center md:text-base md:max-w-screen-lg">
