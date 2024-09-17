@@ -175,7 +175,9 @@ export default function Consulting() {
           </p>
 
           <Link
-            href="#"
+            href="https://api.whatsapp.com/send/?phone=5511981046535&text=Vim%20pelo%20site%20da%20Inclusivo%20Solu%C3%A7%C3%B5es%2C%20gostaria%20de%20saber%20mais%20sobre%20a%20consultoria%20comercial&type=phone_number&app_absent=0"
+            target="_blank"
+            aria-label="whatsapp"
             className="bg-blue500 p-3 px-5 text-center text-white rounded-full hover:scale-105 transition-all ease-linear duration-300"
           >
             Entre em contato

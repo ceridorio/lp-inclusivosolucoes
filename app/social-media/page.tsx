@@ -110,7 +110,9 @@ export default function SocialMedia() {
             </p>
 
             <Link
-              href="#"
+              href="https://api.whatsapp.com/send/?phone=5511981046535&text=Vim%20pelo%20site%20da%20Inclusivo%20Solu%C3%A7%C3%B5es%2C%20gostaria%20de%20saber%20mais%20sobre%20m%C3%ADdias%20sociais&type=phone_number&app_absent=0"
+              target="_blank"
+              aria-label="whatsapp"
               className="mt-8 bg-blue500 p-3 rounded-3xl text-white font-semibold w-48 text-center hover:scale-105 transition-all ease-in-out"
             >
               Entrar em contato

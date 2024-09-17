@@ -30,14 +30,14 @@ export function Header({
         className,
       ])}
     >
-      <div className="px-3 lg:px-10 flex gap-x-24 self-start w-full justify-between lg:justify-normal">
+      <div className="px-3 flex w-full items-center w-full justify-between">
         <div className="flex items-center gap-x-4">
           <h1 className="text-2xl poppins cursor-default">
             INCLUSIVO <span className="italic text-blue500">SOLUÇÕES</span>
           </h1>
         </div>
 
-        <div className="hidden items-center gap-16 lg:flex">
+        <div className="hidden items-center lg:flex w-full justify-around text-sm container:text-base">
           <Link
             href="/"
             className={twMerge(
@@ -75,6 +75,15 @@ export function Header({
             Desenvolvimento de apps
           </Link>
         </div>
+
+        <Link
+          href="https://api.whatsapp.com/send/?phone=5511981046535&text=Vim%20pelo%20site%20da%20Inclusivo%20Solu%C3%A7%C3%B5es%2C%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es&type=phone_number&app_absent=0"
+          target="_blank"
+          aria-label="whatsapp"
+          className="hidden lg:flex justify-center items-center bg-blue500 p-2 rounded-3xl text-white font-semibold w-48 text-center hover:scale-105 transition-all ease-in-out"
+          >
+          Fale conosco
+        </Link>
 
         <HeaderMobile />
       </div>

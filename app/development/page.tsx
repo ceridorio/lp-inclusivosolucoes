@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { CloudUpload, Handshake, Target } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Development() {
   return (
@@ -136,6 +137,15 @@ export default function Development() {
             em transformar a experiência dos seus clientes e maximizar o sucesso
             do seu negócio
           </p>
+
+          <Link
+              href="https://api.whatsapp.com/send/?phone=5511981046535&text=Vim%20pelo%20site%20da%20Inclusivo%20Solu%C3%A7%C3%B5es%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20desenvolvimento%20de%20apps&type=phone_number&app_absent=0"
+              target="_blank"
+              aria-label="whatsapp"
+              className="mt-8 bg-blue500 p-3 rounded-3xl text-white font-semibold w-48 text-center hover:scale-105 transition-all ease-in-out"
+            >
+            Entrar em contato
+          </Link>
         </div>
       </div>
     </>

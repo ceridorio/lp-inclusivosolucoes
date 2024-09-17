@@ -44,7 +44,7 @@ export function HeaderMobile() {
             <Link
               href="/"
               className={twMerge(
-                pathname === "/" ? "border-b-blue500" : "",
+                pathname === "/" ? "border-b-2 border-b-blue500" : "",
                 "hover:text-blue500"
               )}
             >
@@ -55,7 +55,7 @@ export function HeaderMobile() {
             <Link
               href="/social-media"
               className={twMerge(
-                pathname === "/social-media" ? "border-b-blue500" : "",
+                pathname === "/social-media" ? "border-b-2 border-b-blue500" : "",
                 "hover:text-blue500"
               )}
             >
@@ -66,7 +66,7 @@ export function HeaderMobile() {
             <Link
               href="/consulting"
               className={twMerge(
-                pathname === "/consulting" ? "border-b-blue500" : "",
+                pathname === "/consulting" ? "border-b-2 border-b-blue500" : "",
                 "hover:text-blue500"
               )}
             >
@@ -77,7 +77,7 @@ export function HeaderMobile() {
             <Link
               href="/development"
               className={twMerge(
-                pathname === "/development" ? "border-b-blue500" : "",
+                pathname === "/development" ? "border-b-2 border-b-blue500" : "",
                 "hover:text-blue500"
               )}
             >
